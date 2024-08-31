@@ -26,7 +26,7 @@ export default function Home() {
               <h1 className="mt-5">that fits your lifestyle.</h1>
             </div>
           </div>
-          <div className="z-30 mt-10 flex h-20 w-2/3 items-center bg-white">
+          <div className="z-30 mt-10 hidden h-20 w-2/3 items-center bg-white sm:flex">
             <div className="flex flex-1 items-center p-5">
               <div className="flex w-60 items-center justify-between gap-5 border-r pr-5">
                 <div>
@@ -44,14 +44,13 @@ export default function Home() {
               />
             </div>
             <div className="flex h-20 w-40 items-center justify-center bg-yellow-500 hover:cursor-pointer">
-              ``
               <FaSearch className="mr-2 h-4 w-4" />
               <span className="text-xl font-medium">Search</span>
             </div>
           </div>
         </div>
         <div className="mx-auto h-1/3 w-full max-w-screen-2xl px-5">
-          <div className="grid h-full w-full grid-cols-4 border-l border-r">
+          <div className="grid h-full w-full grid-cols-1 border-l border-r sm:grid-cols-2 lg:grid-cols-4">
             <div className="flex h-full w-full flex-col justify-end border-r px-5 lg:px-10">
               <MdBookOnline className="h-14 w-14" />
               <h1 className="mt-5 flex h-32 items-start text-2xl font-bold lg:mt-10 lg:text-3xl">
