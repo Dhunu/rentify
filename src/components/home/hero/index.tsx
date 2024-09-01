@@ -1,4 +1,11 @@
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import Image from "next/image";
 import React from "react";
 
@@ -17,7 +24,7 @@ export default function HeroSection() {
           <h1 className="font-publicSans text-xl font-semibold text-white sm:text-3xl lg:text-[52px]">
             Find Your Dream Home
           </h1>
-          <p className="font-publicSans mt-5 w-full px-10 text-center text-sm text-white sm:w-1/3 sm:text-lg lg:text-xl">
+          <p className="mt-5 w-full px-10 text-center font-publicSans text-sm text-white sm:w-1/3 sm:text-lg lg:text-xl">
             Explore a wide range of properties, from cozy homes to luxurious
             getaways. Book easily and start your next adventure
           </p>
@@ -29,16 +36,52 @@ export default function HeroSection() {
             <h3 className="text-base font-semibold text-[#2C3A61]">
               Locations
             </h3>
+            <Select>
+              <SelectTrigger className="border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0">
+                <SelectValue placeholder="Select a location" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="jakarta">Mumbai</SelectItem>
+                <SelectItem value="bandung">Delhi</SelectItem>
+                <SelectItem value="surabaya">Kolkata</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
           <div className="flex flex-col items-center justify-center border-r-[1px] border-gray-300">
             <h3 className="text-base font-semibold text-[#2C3A61]">
               Property Type
             </h3>
+            <Select>
+              <SelectTrigger className="border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0">
+                <SelectValue placeholder="Select a property type" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="jakarta">Apartment</SelectItem>
+                <SelectItem value="bandung">House</SelectItem>
+                <SelectItem value="surabaya">Villa</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
           <div className="flex flex-col items-center justify-center border-r-[1px] border-gray-300">
             <h3 className="text-base font-semibold text-[#2C3A61]">
               Rent Range
             </h3>
+            <Select>
+              <SelectTrigger className="border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0">
+                <SelectValue placeholder="Select a rent range" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="jakarta">
+                  ₹ 10,00,000 - ₹ 20,00,000
+                </SelectItem>
+                <SelectItem value="bandung">
+                  ₹ 20,00,000 - ₹ 30,00,000
+                </SelectItem>
+                <SelectItem value="surabaya">
+                  ₹ 30,00,000 - ₹ 40,00,000
+                </SelectItem>
+              </SelectContent>
+            </Select>
           </div>
           <div className="flex flex-col items-center justify-center">
             <Button
