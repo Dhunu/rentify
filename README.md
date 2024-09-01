@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rentify - Find your dream home
+
+## Technologies
+- Next.js 14
+- Tailwind CSS
+- TypeScript
+- Shadcn UI
+
+## Live Link
+[https://rentify.coolify.angelsaikia.com](https://rentify.coolify.angelsaikia.com)
 
 ## Getting Started
 
