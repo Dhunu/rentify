@@ -1,20 +1,20 @@
 const navLinks = [
-    {
-        name: "For Tenant",
-        href: "/",
-    },
-    {
-        name: "For Landlord",
-        href: "/landlord",
-    },
-    {
-        name: "About Us",
-        href: "/about-us",
-    },
-    {
-        name: "Contact Us",
-        href: "/contact-us",
-    },
+  {
+    name: "HOME",
+    href: "/",
+  },
+  {
+    name: "ABOUT US",
+    href: "/about-us",
+  },
+  {
+    name: "PROPERTIES",
+    href: "/properties",
+  },
+  {
+    name: "CONTACT US",
+    href: "/contact-us",
+  },
 ];
 
 export { navLinks };
