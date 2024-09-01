@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function BannerSection() {
@@ -20,8 +21,8 @@ export default function BannerSection() {
           Spend vacations in best hotels and resorts find the great place of
           your choice using different searching options.
         </p>
-        <Button className="bg-transparent text-white" variant="outline">
-          Contact Us
+        <Button className="bg-transparent text-white" variant="outline" asChild>
+          <Link href="/contact-us">Contact Us</Link>
         </Button>
       </div>
     </div>

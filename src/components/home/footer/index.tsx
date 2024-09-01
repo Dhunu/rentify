@@ -93,7 +93,7 @@ export default function FooterSection() {
                 Blog
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="text-[10px] font-medium text-muted-foreground sm:text-sm"
               >
                 Contact
@@ -119,7 +119,7 @@ export default function FooterSection() {
                 Press
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="text-[10px] font-medium text-muted-foreground sm:text-sm"
               >
                 Contact

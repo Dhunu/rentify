@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function RightSide() {
   return (
-    <div className="hidden w-[45%] items-center justify-between lg:flex">
+    <div className="items-center justify-between lg:flex lg:w-[45%]">
       {navLinks.map((link, index) => (
-        <Button key={index} variant="link" asChild>
+        <Button key={index} variant="link" asChild className="hidden lg:block">
           <Link
             href={link.href}
             className="text-[14px] font-semibold text-white"
