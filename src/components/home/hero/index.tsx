@@ -31,7 +31,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="relative hidden h-[30vh] w-full px-10 sm:block">
-        <div className="z-10 mx-auto grid w-full max-w-screen-sm -translate-y-1/2 grid-cols-4 rounded-md bg-white px-10 py-10 shadow-md">
+        <div className="z-10 mx-auto grid w-full max-w-screen-lg -translate-y-1/2 grid-cols-4 rounded-md bg-white px-10 py-10 shadow-md">
           <div className="flex flex-col items-center justify-center border-r-[1px] border-gray-300">
             <h3 className="text-base font-semibold text-[#2C3A61]">
               Locations
